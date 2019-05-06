@@ -8,9 +8,11 @@
     "node": ">=6"
   },
   "scripts": {
+    "dev":"node  server.js",
     "build": "tsc -p tsconfig.build.json",
     "build:watch": "tsc -p tsconfig.build.json -w --preserveWatchOutput",
     "clean": "rimraf dist coverage *.js *.js.map *.d.ts",
+    "cleanInit": "rimraf dist",
     "test": "jest",
     "test:watch": "jest --watch --notify"
   },

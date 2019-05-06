@@ -4,7 +4,8 @@
     "downlevelIteration": true,
     "inlineSources": true,
     "lib": ["es6", "dom"],
-    "module": "commanjs", // None、CommanJs、AMD、System、UMD、ES6、ES2015
+    // outFile :amd
+    "module": "commonjs", // 'none', 'commonjs', 'amd', 'system', 'umd', 'es6','es2015', 'esnext'.
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
